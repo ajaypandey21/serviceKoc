@@ -21,9 +21,13 @@ var user = {
     name: "Ajay",
     age: 23,
 };
-// wrong (cross tick emoji)
-/*let user: Person = {
-    name: 33,
-    age: "xyz",
-  };
-  */
+//  extends property kinda Inheritence
+var dude = {
+    name: "chintu",
+    age: 31,
+    email: "xyz@gmail.com",
+};
+function len(param) {
+    return param.length;
+}
+console.log(len("ajay"));

@@ -55,3 +55,20 @@ let user: Person = {
     age: "xyz",
   };
   */
+
+interface User extends Person {
+  email: string;
+}
+
+//  extends property kinda Inheritence
+
+let dude: User = {
+  name: "chintu",
+  age: 31,
+  email: "xyz@gmail.com",
+};
+
+function len(param: string | any[]) {
+  return param.length;
+}
+console.log(len("ajay"));
